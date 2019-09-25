@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    tools:context="idv.ron.wschatbasic_android.two.FriendsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvFrinedName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John"
+            android:textColor="#0000ff"
+            android:textSize="25sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

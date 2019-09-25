@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="idv.ron.wschatbasic_android.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_allChatFragment"
+            app:destination="@id/allChatFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_friendsFragment"
+            app:destination="@id/friendsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allChatFragment"
+        android:name="idv.ron.wschatbasic_android.all.AllChatFragment"
+        android:label="fragment_all_chat"
+        tools:layout="@layout/fragment_all_chat" />
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="idv.ron.wschatbasic_android.two.FriendsFragment"
+        android:label="fragment_friends"
+        tools:layout="@layout/fragment_friends" >
+        <action
+            android:id="@+id/action_friendsFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="idv.ron.wschatbasic_android.two.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WSChatBasic_Android</string>
+    <string name="textSend">Send</string>
+    <string name="textMessageEmpty">Message is empty!</string>
+    <string name="textName">User Name</string>
+    <string name="textAllChat">All Chat</string>
+    <string name="textTwoChat">Two Chat</string>
+    <string name="textConnect">Connect</string>
+    <string name="textDisconnect">Disconnect</string>
+    <string name="textFriends">Friends</string>
+
+</resources>
